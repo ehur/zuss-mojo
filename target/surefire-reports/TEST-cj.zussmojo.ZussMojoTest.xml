@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.137" errors="0" skipped="0" tests="1" name="cj.zussmojo.ZussMojoTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/i386"/>
+    <property name="java.vm.version" value="11.3-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/lhurley/p4/lhurley_e6410/personal/liz/zuss-mojo"/>
+    <property name="java.runtime.version" value="1.6.0_13-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/lhurley/p4/lhurley_e6410/personal/liz/zuss-mojo"/>
+    <property name="java.endorsed.dirs" value="/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter8081518738215331815.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/i386/server:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/i386:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/lhurley/p4/lhurley_e6410/personal/liz/zuss-mojo/target/test-classes:/home/lhurley/p4/lhurley_e6410/personal/liz/zuss-mojo/target/classes:/home/lhurley/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar:/home/lhurley/.m2/repository/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar:/home/lhurley/.m2/repository/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar:/home/lhurley/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/lhurley/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar:/home/lhurley/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar:/home/lhurley/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.1/plexus-utils-3.0.1.jar:/home/lhurley/.m2/repository/org/zkoss/zuss/zuss/1.0.0/zuss-1.0.0.jar:/home/lhurley/.m2/repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar:/home/lhurley/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/lhurley/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="3.7.3-101.fc17.x86_64"/>
+    <property name="user.home" value="/home/lhurley"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="lhurley"/>
+    <property name="java.class.path" value="/home/lhurley/p4/lhurley_e6410/personal/liz/zuss-mojo/target/test-classes:/home/lhurley/p4/lhurley_e6410/personal/liz/zuss-mojo/target/classes:/home/lhurley/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar:/home/lhurley/.m2/repository/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar:/home/lhurley/.m2/repository/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar:/home/lhurley/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/lhurley/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/home/lhurley/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar:/home/lhurley/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar:/home/lhurley/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.1/plexus-utils-3.0.1.jar:/home/lhurley/.m2/repository/org/zkoss/zuss/zuss/1.0.0/zuss-1.0.0.jar:/home/lhurley/.m2/repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar:/home/lhurley/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/lhurley/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_13"/>
+    <property name="java.ext.dirs" value="/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/resources.jar:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/rt.jar:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/sunrsasign.jar:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/jsse.jar:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/jce.jar:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/lib/charsets.jar:/home/lhurley/p4/lhurley_e6410/software/java/jdk1.6.0_13/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/home/lhurley/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.042" classname="cj.zussmojo.ZussMojoTest" name="testFileIsRead"/>
+</testsuite>
